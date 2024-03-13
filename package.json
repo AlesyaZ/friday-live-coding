@@ -1,0 +1,23 @@
+{
+  "name": "friday-live-coding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "style": "sass --watch src/sass/style.scss src/sass/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlesyaZ/friday-live-coding.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlesyaZ/friday-live-coding/issues"
+  },
+  "homepage": "https://github.com/AlesyaZ/friday-live-coding#readme",
+  "dependencies": {
+    "sass": "^1.71.1"
+  }
+}
