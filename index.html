@@ -14,7 +14,9 @@
     <header class="header">
       <div class="wrapper header__wrapper">
         <div class="header__logo-line">
-          <span class="hamburger"><span class="hamburger__line"></span></span>
+          <span class="header__hamburger hamburger"
+            ><span class="hamburger__line"></span
+          ></span>
           <a href="#" class="logo">
             <object
               type="image/svg+xml"
@@ -65,7 +67,7 @@
     <section class="tools">
       <div class="wrapper tools__wrapper">
         <h2 class="tools__title">We design tools to unveil your superpowers</h2>
-        <div class="layout-4-column">
+        <div class="layout-4-column tool-container">
           <div class="tool">
             <div class="tool__icon">
               <span class="icon-square icon-square_violet">
@@ -81,8 +83,10 @@
                 <span class="ico ico_snake"></span>
               </span>
             </div>
-            <h4>Design surveys</h4>
-            <p>Sports betting, lottery and bingo playing for the fun</p>
+            <h4 class="tool__title">Design surveys</h4>
+            <p class="tool__text">
+              Sports betting, lottery and bingo playing for the fun
+            </p>
           </div>
           <div class="tool">
             <div class="tool__icon">
@@ -90,8 +94,8 @@
                 <span class="ico ico_heart"></span>
               </span>
             </div>
-            <h4>Preference tests</h4>
-            <p>The Myspace page defines the individual.</p>
+            <h4 class="tool__title">Preference tests</h4>
+            <p class="tool__text">The Myspace page defines the individual.</p>
           </div>
           <div class="tool">
             <div class="tool__icon">
@@ -99,8 +103,10 @@
                 <span class="ico ico_clock"></span>
               </span>
             </div>
-            <h4>Five second tests</h4>
-            <p>Personal choices and the overall personality of the person.</p>
+            <h4 class="tool__title">Five second tests</h4>
+            <p class="tool__text">
+              Personal choices and the overall personality of the person.
+            </p>
           </div>
         </div>
         <div class="tools__button">
@@ -314,7 +320,7 @@
     <section class="contact-us">
       <div class="wrapper">
         <h2 class="contact-us__title">Contact Us</h2>
-        <div class="layout-2-column">
+        <div class="layout-2-column contact-us-container">
           <div class="contact-us__content">
             <p class="contact-us__text">
               Your About Us page is vital. It’s often the first stop in any
@@ -361,9 +367,15 @@
     </section>
     <footer class="footer">
       <div class="wrapper footer__wrapper">
-        <a href="#" class="logo"
-          ><img src="./src/img/logo.png" alt="Productly LCC"
-        /></a>
+        <a href="#" class="logo">
+          <object
+            type="image/svg+xml"
+            data="./src/img/logo.svg"
+            class="logo-object"
+          >
+            Your browser does not support SVG
+          </object>
+        </a>
         <div class="footer-navigation layout-3-column">
           <div class="footer-navigation__column">
             <h4 class="footer-navigation__title">Quick Links</h4>
