@@ -19,6 +19,7 @@
   "homepage": "https://github.com/AlesyaZ/friday-live-coding#readme",
   "dependencies": {
     "normalize-scss": "^8.0.0",
-    "sass": "^1.71.1"
+    "sass": "^1.71.1",
+    "webpack": "^5.90.3"
   }
 }
