@@ -67,7 +67,7 @@ export class Modal {
   }
 
   bindEvents() {
-    this.modalCloseBtn.addEventListener("click", this.closeModal);
+    // this.modalCloseBtn.addEventListener("click", this.closeModal);
     this.overlay.addEventListener("click", this.closeModal);
   }
 
