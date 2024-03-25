@@ -14,23 +14,43 @@
   position: relative;
   width: 31px;
   height: 25px;
+  cursor: pointer;
   @include media-tablet {
     display: inline-block;
   }
   &:before {
     @extend %hamburger-line;
+    @extend %transition;
     top: 0;
     left: 0;
   }
   &:after {
     @extend %hamburger-line;
+    @extend %transition;
     bottom: 0;
     left: 0;
+  }
+  &.active {
+    &:before {
+      right: 13px;
+      left: auto;
+      transform: rotate(90deg);
+      top: calc(50% - 1.5px);
+    }
+    &:after {
+      left: 13px;
+      transform: rotate(90deg);
+      top: calc(50% - 1.5px);
+    }
+    .hamburger__line {
+      transform: rotate(90deg);
+    }
   }
 }
 
 .hamburger__line {
   @extend %hamburger-line;
+  @extend %transition;
   top: calc(50% - 1.5px);
   left: 0;
 }
