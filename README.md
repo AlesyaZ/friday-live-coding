@@ -1,3 +1,3 @@
 # Landing page "Friday Live Coding"
 
-# Demo link: https://alesyaz.github.io/friday-live-coding/
+# Demo link: https://alesyaz.github.io/friday-live-coding/dist
